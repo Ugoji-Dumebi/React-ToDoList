@@ -143,7 +143,7 @@ module "eks" {
 
   access_entries = {
   admin = {
-    principal_arn = "arn:aws:iam::980805786514:user/EseVic"
+    principal_arn = "arn:aws:iam::739275460282:user/Devops_IAM_Admin"
 
     policy_associations = {
       admin = {
